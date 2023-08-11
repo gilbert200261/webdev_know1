@@ -54,6 +54,9 @@ body {
     height: 80vh;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content {
@@ -143,7 +146,7 @@ a:hover, a:active {
     width: 100%;
     max-width: 260px;
     background: chartreuse;
-    color: #F1F1F1;
+    color: #f1f1f1;
     border: 2px solid chartreuse;
     border-radius: 12px;
     padding: 12px 24px;
@@ -159,7 +162,7 @@ a:hover, a:active {
     width: 100%;
     max-width: 260px;
     background: #f08527;
-    color: #1b1b27;
+    color:#1b1b27;
     border: 2px solid #f08527;
     border-radius: 12px;
     padding: 12px 24px;
@@ -178,9 +181,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
